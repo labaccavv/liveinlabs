@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: rgba(255, 254, 254, 0.849);
+    background-size: initial;
+    background-color: black;
+}
+
+tr{
+    height: 600px;
+}
+.hc {
+    text-align: center;
+    font-size: 22px;
+    padding: 25px 25px 0px 25px;
+    color: red;
+}
+
+.smallb {
+    align-items: center;
+    border-radius: 25px;
+    background-color: snow;
+    color: black;
+    width: 300px;
+    height: 550px;
+    font-size: 10px;
+    padding: 25px;
+}
+
+.smallb:hover { 
+    background-color: red;
+    transition: 0.75s;
+    color: white;
+}
+
+.smallb img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 250px;
+    height: 300px;
+    top: 0;
+}
+
+td {
+    width: 2000px;
+}
+
+.sec2 {
+    position: relative;
+}
+
+.para {
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+}
